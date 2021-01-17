@@ -7,6 +7,7 @@
   --grey1: #999999;
   --grey2: #d6d6d6;
   --grey3: #eeeeee;
+  --yellow: #f0db4f;
 }
 
 * {
@@ -53,6 +54,8 @@ li {
 
 #navbar header {
   padding: 16px 24px;
+  background-color: var(--yellow);
+  box-shadow: 0 4px 15px #cacaca;
 }
 
 nav ul {
@@ -124,5 +127,9 @@ li {
   padding: 15px;
   margin: 15px;
   border-radius: 5px;
+}
+
+#reference {
+  background-color: var(--yellow);
 }
 /* END OF MAIN */
