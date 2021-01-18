@@ -8,10 +8,16 @@
 </head>
 <body>
     <nav id="navbar">
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
         <header>
             <h1>JS Documentation</h1>
         </header>
-        <ul>
+        <ul class="nav-links">
             <li><a href="#introduction" class="nav-link">Introduction</a></li>
             <li><a href="#what_you_should_already_know" class="nav-link">What you should already know</a></li>
             <li><a href="#javascript_and_java" class="nav-link">JavaScript and Java</a></li>
@@ -218,9 +224,7 @@
                 </p>
                 <p>
                     It is advisable to not use simple assignments in a conditional expression, because the assignment can be confused with equality when glancing over the code. For example, do not use the following code:
-                    <code>
-                        if (x = y) { /* statements here */ }
-                    </code>
+                    <code>if (x = y) { /* statements here */ }</code>
                 </p>
                 <p>
                     If you need to use an assignment in a conditional expression, a common practice is to put additional parentheses around the assignment. For example:
@@ -293,5 +297,7 @@
         </section>
     </main>
     
+
+    <script src="assets/app.js"></script>
 </body>
 </html>
